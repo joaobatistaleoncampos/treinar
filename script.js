@@ -1,6 +1,20 @@
-let cart = ["feijão","arroz","carne"]
-let numbers = [1,23,25,65,14]
+const velocidade = document.getElementById('velocidade')
 
-cart.push(numbers)// array dentro de outra array
+const res=document.getElementById('res')
 
-console.log(cart)
+
+ function radar(){
+const vel = velocidade.value;
+
+
+
+if(vel >40 &&vel< 50){
+    res.innerHTML+='Multado!!';
+}
+
+else{
+    res.innerHTML+='Não multado'
+    
+}
+
+ }

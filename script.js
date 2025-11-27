@@ -10,6 +10,7 @@ const vel = velocidade.value;
 
 if(vel >40 &&vel< 50){
     res.innerHTML+='Multado!!';
+    
 }
 
 else{

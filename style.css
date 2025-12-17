@@ -1,9 +1,9 @@
 #container {
     border-radius: 5px;
     border: solid 1px;
-    height: 300px;
-    width: 300px;
-    background-color:cornflowerblue;
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
 
     /*  ALINHA O CONTAINER MEIO DA TELA */
 
@@ -24,27 +24,29 @@ header {
 
 input {
     border-radius: 5px;
-    border: solid 2px;
-    margin-left: 50px;
-    margin-top: 50px;
+    border: solid 3px;
+    margin-left: 100px;
+    margin-top: 80px;
     width: 200px;
     height: 40px;
+    color: ;
+
 }
 
 
 
 
 button {
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 50px;
     width: 80px;
     height: 30px;
-    color: rgb(184, 30, 30);
+    color: rgb(84, 30, 184);
 
 }
 
-button:hover{
+button:hover {
     color: aqua;
     /*  MUDA COR BOTÃO QUANDO PASSAR O MOUSE */
-    background-color: bisque; 
-}   
+    background-color: bisque;
+}
